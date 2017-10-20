@@ -1,0 +1,13 @@
+[dependencies]
+# collections = {}
+core = { stage = 0 }
+
+[dependencies.compiler_builtins]
+version = "0.1.0"
+features = ["mem"]
+stage = 1
+
+[dependencies.libc]
+version = "0.2.3"
+default-features = false
+stage = 2

@@ -1,0 +1,16 @@
+[package]
+authors = ["Kevin Boos <kevinaboos@gmail.com>"]
+name = "rust_test"
+version = "0.1.0"
+
+[dependencies]
+
+# [dependencies.libc]
+# version = "*"
+# default-features = false
+
+[build]
+rustflags = ["-C", "-static"]
+
+# [build]
+# rustflags = ["-C", "prefer-dynamic", "-C", "panic=abort"]

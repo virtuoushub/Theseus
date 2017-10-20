@@ -1,0 +1,18 @@
+[dependencies]
+collections = {}
+rand = {}
+
+[dependencies.compiler_builtins]
+features = ["mem"]
+git = "https://github.com/rust-lang-nursery/compiler-builtins"
+stage = 1
+
+[dependencies.std]
+### For now, using our local copy of steed so I don't have to keep pushing it to my github clone 
+# git = "https://github.com/kevinaboos/steed"
+path = "../../libs/steed"
+version = "0.1.0"
+### default ralloc is broken on the latest nightlies, see https://github.com/japaric/steed/issues/153
+default-features = false
+features = ["naive_ralloc"]
+stage = 2

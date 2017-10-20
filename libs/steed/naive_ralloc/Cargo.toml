@@ -1,0 +1,8 @@
+[package]
+name = "naive_ralloc"
+version = "0.1.0"
+authors = ["author"]
+
+[dependencies]
+# sc = "0.2.0"
+sc = { path = "../../sc"} # using our own sc for theseus

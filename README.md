@@ -28,7 +28,7 @@ We also need to install Xargo, a drop-in replacement wrapper for Cargo that make
 
 ## Additional Build Environment Setup
 Currently we only support building on 64-bit Debian-like Linux distributions (e.g., Ubuntu 16.04). You will need to install the following packages:  
-`$ sudo apt-get install nasm grub-pc-bin mtools xorriso qemu`   
+`$ sudo apt-get install nasm grub-pc-bin mtools xorriso qemu lld-4.0`   
 
 When you first check out the project, don't forget to checkout all the submodule repositories too:
 `$ git submodule update --init --recursive`

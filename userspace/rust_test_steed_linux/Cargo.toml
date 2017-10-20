@@ -1,0 +1,10 @@
+[package]
+authors = ["Kevin Boos <kevinaboos@gmail.com>"]
+name = "rust_test_steed"
+version = "0.1.0"
+
+[dependencies]
+
+
+# [build]
+# rustflags = ["-C", "prefer-dynamic", "-C", "panic=abort"]

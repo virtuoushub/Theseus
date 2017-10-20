@@ -1,3 +1,11 @@
 [submodule "libs/dfqueue"]
 	path = libs/dfqueue
 	url = https://github.com/kevinaboos/dfqueue
+[submodule "libs/steed"]
+	path = libs/steed
+	url = https://github.com/kevinaboos/steed.git
+	branch = theseus
+[submodule "libs/sc"]
+	path = libs/sc
+	url = https://github.com/kevinaboos/syscall.rs.git
+	branch = theseus
